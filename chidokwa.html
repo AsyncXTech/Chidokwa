@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,25 +7,18 @@
     <!-- Load Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Load Font Awesome for social icons (Facebook, X, LinkedIn) -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" xintegrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" xintegrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-        /* --- PROFESSIONAL COLOR PALETTE --- */
         
-         :root {
-            --color-bg-primary: #0A192F;
-            /* Deep Navy Blue */
-            --color-card-bg: #112240;
-            /* Lighter Dark Blue for cards */
-            --color-accent-cyan: #64FFDA;
-            /* Electric Cyan */
-            --color-accent-blue: #4F9BFC;
-            /* Bright Professional Blue */
-            --color-text-light: #CCD6F6;
-            /* Soft White */
-            --color-text-secondary: #8892B0;
-            /* Light Gray/Slate */
+        /* --- PROFESSIONAL COLOR PALETTE --- */
+        :root {
+            --color-bg-primary: #0A192F; /* Deep Navy Blue */
+            --color-card-bg: #112240; /* Lighter Dark Blue for cards */
+            --color-accent-cyan: #64FFDA; /* Electric Cyan */
+            --color-accent-blue: #4F9BFC; /* Bright Professional Blue */
+            --color-text-light: #CCD6F6; /* Soft White */
+            --color-text-secondary: #8892B0; /* Light Gray/Slate */
         }
         
         body {
@@ -34,54 +26,48 @@
             background-color: var(--color-bg-primary);
             color: var(--color-text-light);
         }
-        /* Gradient for text (Cyan to Blue) */
         
+        /* Gradient for text (Cyan to Blue) */
         .gradient-text {
             background: linear-gradient(90deg, var(--color-accent-cyan), var(--color-accent-blue));
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
-        /* Gradient for buttons/elements (Primary CTA) */
         
+        /* Gradient for buttons/elements (Primary CTA) */
         .gradient-bg {
             background-image: linear-gradient(90deg, var(--color-accent-cyan), var(--color-accent-blue));
-            color: var(--color-bg-primary);
-            /* Dark text on bright button */
+            color: var(--color-bg-primary); /* Dark text on bright button */
         }
-        
         .gradient-bg:hover {
             opacity: 0.9;
-            box-shadow: 0 0 15px 3px rgba(100, 255, 218, 0.4);
-            /* Cyan glow on hover */
+            box-shadow: 0 0 15px 3px rgba(100, 255, 218, 0.4); /* Cyan glow on hover */
         }
-        
+
         .section-separator {
             height: 1px;
-            background: linear-gradient(90deg, transparent, rgba(136, 146, 176, 0.2), transparent);
-            /* Subtle separator */
+            background: linear-gradient(90deg, transparent, rgba(136, 146, 176, 0.2), transparent); /* Subtle separator */
         }
-        /* Premium Card Hover Effect (Refined for new colors) */
         
+        /* Premium Card Hover Effect (Refined for new colors) */
         .premium-card {
             background-color: var(--color-card-bg);
             border: 1px solid rgba(136, 146, 176, 0.1);
             transition: all 0.3s ease;
         }
-        
         .premium-card:hover {
             transform: translateY(-5px);
             border-color: var(--color-accent-cyan);
             box-shadow: 0 10px 30px -10px rgba(100, 255, 218, 0.2);
         }
+
         /* Image Placeholder Style */
-        
         .professional-img-frame {
             border: 2px solid var(--color-accent-cyan);
             box-shadow: 0 0 0 4px rgba(100, 255, 218, 0.1), 0 0 15px rgba(100, 255, 218, 0.3);
         }
     </style>
 </head>
-
 <body class="antialiased">
 
     <!-- Navbar -->
@@ -113,8 +99,7 @@
                         Crafting Digital Experiences That Define <span class="gradient-text">Tomorrow</span>.
                     </h1>
                     <p class="text-xl text-[--color-text-secondary] max-w-lg">
-                        Async is your dedicated partner for comprehensive digital transformation. We specialize in developing robust, scalable web applications and striking visual identities that drive growth and maximize client value. Focus on what you do best, and let Async
-                        handle defining your tomorrow's digital experience.
+                        Async is your dedicated partner for comprehensive digital transformation. We specialize in developing robust, scalable web applications and striking visual identities that drive growth and maximize client value. Focus on what you do best, and let Async handle defining your tomorrow's digital experience.
                     </p>
                     <a href="#services" class="inline-flex items-center space-x-3 gradient-bg text-black font-bold py-4 px-8 rounded-full shadow-2xl transition duration-300 ease-in-out transform hover:scale-[1.05] mt-4">
                         Explore Our Services
@@ -125,21 +110,23 @@
                 </div>
                 <!-- Right Image (Placeholder mimicking the style) -->
                 <div class="p-4 rounded-2xl bg-[#0A192F] hidden md:block">
-                    <img src="https://cdn.pixabay.com/photo/2015/07/17/22/42/startup-849804_960_720.jpg" alt="Professional Portrait of Developer" class="rounded-xl w-full object-cover aspect-square professional-img-frame" onerror="this.onerror=null;this.src='https://placehold.co/600x600/112240/64FFDA?text=Image+Load+Failed';"
-                    />
+                    <img src="https://scontent.fabb1-3.fna.fbcdn.net/v/t39.30808-6/594059760_3923279241138121_495415358657189629_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHHZ6gFDnWEF6zTnLvR57kBrL3fkw9pHz-svd-TD2kfP_yaIxv324DgaII0nnhsZDAq8p06GIFcUgcAfqOZmSES&_nc_ohc=zlCvc1jSUUUQ7kNvwFyAZDK&_nc_oc=AdnjtR39ju82j1xvgPZDwnZqIHT50ZutNAyBdwSQO7mLbh_1jPUr4yxrD6Tb3A78i64&_nc_zt=23&_nc_ht=scontent.fabb1-3.fna&_nc_gid=ZAQmr5NIPd9tPintTIORAg&oh=00_AfnmsKx8zKsNXtJEsPkNsQpi21-OIMbuBpUNXsrG9r_0ww&oe=694B7E12" 
+                         alt="Professional Portrait of Developer" 
+                         class="rounded-xl w-full object-cover aspect-square professional-img-frame"
+                         onerror="this.onerror=null;this.src='https://placehold.co/600x600/112240/64FFDA?text=Image+Load+Failed';" />
                 </div>
             </div>
         </section>
-
+        
         <div class="section-separator mb-12"></div>
 
         <!-- Services Section -->
         <section id="services" class="py-12 md:py-16">
             <h2 class="text-5xl font-extrabold text-center mb-6">Services I <span class="gradient-text">Offer</span></h2>
             <p class="text-center text-[--color-text-secondary] text-xl mb-10">Focused on digital excellence and empowering you with skills.</p>
-
+            
             <div class="grid md:grid-cols-3 gap-8">
-
+                
                 <!-- Service 1: Web Development -->
                 <div class="premium-card p-10 rounded-2xl shadow-3xl">
                     <div class="text-5xl text-[--color-accent-cyan] mb-4">
@@ -175,22 +162,25 @@
         <section id="contact" class="py-12 md:py-16">
             <h2 class="text-5xl font-extrabold text-center mb-6">Let's <span class="gradient-text">Collaborate</span></h2>
             <p class="text-center text-[--color-text-secondary] text-xl mb-10">Ready to start a project? Fill out the form below and I'll get back to you promptly.</p>
-
+            
             <div class="bg-[--color-card-bg] p-8 md:p-12 rounded-3xl shadow-3xl max-w-3xl mx-auto border border-[--color-accent-blue]/20">
                 <form id="contact-form" onsubmit="event.preventDefault(); sendEmail();" class="space-y-6">
                     <div>
                         <label for="full-name" class="block text-sm font-medium text-[--color-text-light] mb-2">Full Name</label>
-                        <input type="text" id="full-name" required class="w-full px-4 py-3 bg-[--color-bg-primary] border border-gray-700 rounded-xl focus:border-[--color-accent-cyan] focus:ring-[--color-accent-cyan] text-[--color-text-light] placeholder-[--color-text-secondary] transition duration-150">
+                        <input type="text" id="full-name" required 
+                               class="w-full px-4 py-3 bg-[--color-bg-primary] border border-gray-700 rounded-xl focus:border-[--color-accent-cyan] focus:ring-[--color-accent-cyan] text-[--color-text-light] placeholder-[--color-text-secondary] transition duration-150">
                     </div>
                     <div>
                         <label for="phone" class="block text-sm font-medium text-[--color-text-light] mb-2">Phone Number</label>
-                        <input type="tel" id="phone" class="w-full px-4 py-3 bg-[--color-bg-primary] border border-gray-700 rounded-xl focus:border-[--color-accent-cyan] focus:ring-[--color-accent-cyan] text-[--color-text-light] placeholder-[--color-text-secondary] transition duration-150">
+                        <input type="tel" id="phone" 
+                               class="w-full px-4 py-3 bg-[--color-bg-primary] border border-gray-700 rounded-xl focus:border-[--color-accent-cyan] focus:ring-[--color-accent-cyan] text-[--color-text-light] placeholder-[--color-text-secondary] transition duration-150">
                     </div>
                     <div>
                         <label for="message" class="block text-sm font-medium text-[--color-text-light] mb-2">Message</label>
-                        <textarea id="message" rows="5" required class="w-full px-4 py-3 bg-[--color-bg-primary] border border-gray-700 rounded-xl focus:border-[--color-accent-cyan] focus:ring-[--color-accent-cyan] text-[--color-text-light] placeholder-[--color-text-secondary] transition duration-150"></textarea>
+                        <textarea id="message" rows="5" required 
+                                  class="w-full px-4 py-3 bg-[--color-bg-primary] border border-gray-700 rounded-xl focus:border-[--color-accent-cyan] focus:ring-[--color-accent-cyan] text-[--color-text-light] placeholder-[--color-text-secondary] transition duration-150"></textarea>
                     </div>
-
+                    
                     <button type="submit" class="w-full gradient-bg text-lg font-bold py-3 rounded-xl shadow-lg transition duration-300 ease-in-out transform hover:scale-[1.01]">
                         Send Message
                     </button>
@@ -204,7 +194,7 @@
     <!-- Footer & Contact Details -->
     <footer class="bg-[--color-card-bg] border-t border-[#112240] mt-20">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
-
+            
             <div class="grid md:grid-cols-3 gap-12 border-b border-[#112240] pb-10 mb-10">
                 <!-- Brand -->
                 <div class="space-y-4">
@@ -222,7 +212,7 @@
                     <a href="tel:+2348162036948" class="flex items-center space-x-4 text-[--color-text-secondary] hover:text-[--color-accent-cyan] transition">
                         <i class="fas fa-phone-alt text-[--color-accent-cyan] w-4 h-4 text-lg"></i>
                         <span class="text-base">Call: +234 816 203 6948</span>
-                    </a>
+                    </a >
                     <a href="https://wa.me/2348162036948" target="_blank" class="flex items-center space-x-4 text-[--color-text-secondary] hover:text-green-400 transition">
                         <i class="fab fa-whatsapp text-green-500 w-4 h-4 text-lg"></i>
                         <span class="text-base">WhatsApp: +234 816 203 6948</span>
@@ -272,13 +262,13 @@
             }
 
             // The target email address: PLEASE REPLACE THIS WITH YOUR ACTUAL EMAIL WHEN DEPLOYING
-            const recipient = 'your-actual-email-here@example.com';
-
+            const recipient = 'your-actual-email-here@example.com'; 
+            
             // Construct the subject line
             const subject = `New Inquiry from Async Website: ${fullName}`;
-
+            
             // Construct the email body
-            const body =
+            const body = 
                 `--- Contact Details ---\n` +
                 `Full Name: ${fullName}\n` +
                 `Phone Number: ${phone || 'Not provided'}\n\n` +
@@ -286,9 +276,9 @@
                 `${message}`;
 
             // Encode components for a valid mailto URL
-            const mailtoLink =
-                `mailto:${recipient}` +
-                `?subject=${encodeURIComponent(subject)}` +
+            const mailtoLink = 
+                `mailto:${recipient}` + 
+                `?subject=${encodeURIComponent(subject)}` + 
                 `&body=${encodeURIComponent(body)}`;
 
             // Open the user's default email client
@@ -296,7 +286,7 @@
 
             // Provide user feedback after triggering mailto
             formMessage.textContent = 'Success! Your email client should now be open with a draft. Please send it from there.';
-
+            
             // Clear the form after a slight delay to allow the user to see the success message
             setTimeout(() => {
                 document.getElementById('contact-form').reset();
@@ -305,11 +295,11 @@
 
         // Simple scroll smoothing for internal links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
+            anchor.addEventListener('click', function (e) {
                 e.preventDefault();
                 const targetId = this.getAttribute('href');
                 const targetElement = document.querySelector(targetId);
-
+                
                 if (targetElement) {
                     targetElement.scrollIntoView({
                         behavior: 'smooth',
@@ -321,5 +311,4 @@
         });
     </script>
 </body>
-
 </html>
